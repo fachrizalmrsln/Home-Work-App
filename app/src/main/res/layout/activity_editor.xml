@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityEditor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="6dp"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/tv_id"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id" />
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/day" />
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginTop="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/homework" />
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginTop="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lecture" />
+
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginTop="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deadline" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="20dp"
+        android:padding="6dp">
+
+        <EditText
+            android:visibility="gone"
+            android:hint="@string/id_hint"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:id="@+id/et_id"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+    <EditText
+        android:inputType="textCapWords"
+        android:hint="@string/day_hint"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/et_day"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:inputType="textCapWords"
+        android:hint="@string/homework_hint"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/et_homework"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:inputType="textCapWords"
+        android:hint="@string/lecture_hint"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/et_lecture"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <EditText
+        android:inputType="textCapWords"
+        android:hint="@string/deadline_hint"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:id="@+id/et_deadline"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

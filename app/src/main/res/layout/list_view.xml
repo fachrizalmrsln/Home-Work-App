@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:contentPadding="5dp"
+    android:id="@+id/card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp">
+
+        <TextView
+            android:id="@+id/tv_homework"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/homework"/>
+
+            <TextView
+                android:layout_below="@+id/tv_homework"
+                android:id="@+id/tv_lecture"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lecture"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp">
+
+        <TextView
+            android:gravity="right"
+            android:id="@+id/tv_day"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/day"/>
+
+        <TextView
+            android:layout_below="@+id/tv_day"
+            android:gravity="right"
+            android:text="@string/deadline"
+            android:id="@+id/tv_deadline"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        </RelativeLayout>
+        </RelativeLayout>
+
+</LinearLayout>
