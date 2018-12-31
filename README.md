@@ -1,2 +1,2 @@
 # HomeWork
-My First Database Application
+First Database Application
