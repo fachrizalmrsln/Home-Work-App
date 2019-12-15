@@ -1,7 +1,7 @@
 # HomeWork Apps
 Home Work is a basic implementation for local database to do some create, read, update and delete data (CRUD).
 
-# Screen Shot
+# Screenshot
 ![Alt text](/screenshots/main.png?raw=true "Main Activity")  ![Alt text](/screenshots/create.png?raw=true "Create Activity")  ![Alt text](/screenshots/mainwithdata.png?raw=true "Main Activity") ![Alt text](/screenshots/action.png?raw=true "Main Activity") ![Alt text](/screenshots/update.png?raw=true "Update") ![Alt text](/screenshots/delete.png?raw=true "Delete")
 
 # Features
